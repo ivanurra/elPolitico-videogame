@@ -46,11 +46,6 @@ body{
     background-color: black;
 }
 
-#playground canvas{
-    border-style: dotted;
-    border-color: white;
-}
-
 #playground img{
   padding: 20px;
 }
@@ -80,7 +75,6 @@ body{
     margin-bottom: 50px;
 }
 
-/* PAGE 3 - GAME OVER*/
 
 
 
