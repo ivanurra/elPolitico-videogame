@@ -80,7 +80,7 @@ class Enemy {
     }
 
     draw(){
-        this.x -=5
+        this.x -=6
         ctx.drawImage(this.img, this.x, this.y, this.width, this.height)
     }
 }
@@ -89,6 +89,7 @@ class Enemy {
 
 const airport = new Airport()
 let player = new Player()
+const music = new Audio('./media/music.mp3')
 
 // FUNCTIONS
 
@@ -153,7 +154,7 @@ function drawHealth(){
 }
 
 function createPolicemen() {
-    if (frames % 700 === 0) {
+    if (frames % 350 === 0) {
         policemen.push(new Enemy(canvas.width, 360))
     }
 }
@@ -174,6 +175,7 @@ function update(){
     drawHealth()
     checkHealth() 
     move()
+    music.play()
 }
 
 // START
