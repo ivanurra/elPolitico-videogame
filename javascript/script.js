@@ -157,6 +157,15 @@ function createPolicemen() {
     if (frames % 350 === 0) {
         policemen.push(new Enemy(canvas.width, 360))
     }
+    if (frames % 550 === 0) {
+        policemen.push(new Enemy(canvas.width, 360))
+    }
+    if (frames % 650 === 0) {
+        policemen.push(new Enemy(canvas.width, 360))
+    }
+    if (frames % 850 === 0) {
+        policemen.push(new Enemy(canvas.width, 360))
+    }
 }
 
 function drawPolicemen() {
