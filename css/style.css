@@ -75,6 +75,23 @@ body{
     margin-bottom: 50px;
 }
 
+/*NO RESPONSIVE*/
 
+@media (max-width: 1235px) {
+    #main-menu{
+        display: none;
+    }
 
+    #playground{
+        display: none;
+    }
 
+    #credits{
+        display: none;
+    }
+
+    body{
+        background-image: url("../media/noResponsive.png");
+        background-repeat: no-repeat;
+    }
+  }

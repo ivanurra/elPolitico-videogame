@@ -1,3 +1,7 @@
+// El Politico
+// Created by Iván Urra.
+// November 2020
+
 // VARIABLES
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')

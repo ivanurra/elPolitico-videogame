@@ -1,6 +1,6 @@
 ## El Politico
 ### a classic 8bit videogame, created by Iván Urra.
-### 2020 November
+##### 2020 November
 
 This videogame was created as one of the three projects that must be submitted to finish the **Ironhack bootcamp**. Coded in solitary in five days, using the following technologies: HTML, CSS and JavaScript.
 
