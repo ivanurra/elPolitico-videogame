@@ -152,8 +152,8 @@ function checkHealth() {
 
 function drawHealth(){
     ctx.font = '24px Arial'
-    ctx.fillText('HEALTH:', 15, 30)
-    ctx.fillText(health, 120, 30)
+    ctx.fillText('HEALTH %:', 15, 30)
+    ctx.fillText(health, 150, 30)
     ctx.fillStyle = "white"
 }
 
