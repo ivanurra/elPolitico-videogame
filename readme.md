@@ -8,7 +8,7 @@ The videogame is a tribute to those 8bit games from the 80s that I played when I
 
 **To play, you only need to click on the following link:**
 
-https://ivanurra.github.io/elPolitico-videogame/index.html
+https://ivanurra.github.io/elPolitico-videogame/
 
 I hope you enjoy.
 
